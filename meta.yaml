@@ -1,0 +1,21 @@
+package:
+  name: Starfinder
+  version: 0.3.1.4
+
+source:
+  git_rev: starfinder
+  git_url: https://github.com/adrian-castanon/starfinder.git
+
+requirements:
+
+    - python
+    - wx
+	- astropy
+	- matplotlib
+    - numpy
+
+about:
+  home: https://github.com/adrian-castanon/starfinder.git
+  license: GPL3
+  license_file: LICENSE
+  description: 'This package is the IRAF rival'
